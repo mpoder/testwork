@@ -1,0 +1,21 @@
+database requirements
+
+Categories
+title string 255
+
+Tags
+name string 128
+
+Comments
+email string 255
+comment text
+
+News
+title string 255
+desc string 255
+content text
+image blob
+date datetime
+categories relation manytomany
+tags relation manytomany
+comments relation manytoone

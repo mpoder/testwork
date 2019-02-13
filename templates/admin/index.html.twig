@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Admin view{% endblock %}
+
+{% block body %}
+
+<div>
+  <h1>Admin actions</h1>
+  <a href="{{ path('categories_index') }}">Add & edit categories</a><br>
+  <a href="{{ path('news_index') }}">Add & edit news</a><br>
+  <a href="{{ path('tags_index') }}">Add & edit tags</a><br>
+  <a href="{{ path('comments_index') }}">Add & edit comments</a>
+
+
+</div>
+{% endblock %}
